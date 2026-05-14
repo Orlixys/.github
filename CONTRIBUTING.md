@@ -104,5 +104,5 @@ without further discussion.
 
 ## Contact
 
-- General: **snwvlr@orlixys.com**
+- General: **support@orlixys.com**
 - Security: see [`SECURITY.md`](./SECURITY.md)

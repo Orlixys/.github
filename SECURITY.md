@@ -13,7 +13,7 @@ Public issues expose users before a fix is shipped.
 
 Send a detailed report by email to:
 
-**`snwvlr@orlixys.com`**
+**`support@orlixys.com`**
 
 Use the subject line: `[SECURITY] <product> — <short summary>`
 
@@ -39,8 +39,8 @@ Security reports are welcome for any of the following:
 |---|---|
 | Orlixys Optimizer (source) | https://github.com/Orlixys/Orlixys-Optimizer-Source |
 | Orlixys Optimizer (releases) | https://github.com/Orlixys/Orlixys-Optimizer-Releases |
-| Orbit | proprietary, contact `snwvlr@orlixys.com` |
-| Photon | proprietary, contact `snwvlr@orlixys.com` |
+| Orbit | proprietary, contact `support@orlixys.com` |
+| Photon | proprietary, contact `support@orlixys.com` |
 | Organisation infrastructure | https://github.com/Orlixys |
 
 ### Always in scope

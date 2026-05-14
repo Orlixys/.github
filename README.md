@@ -41,4 +41,4 @@ licence does **not** apply to the brand assets.
 ## Contact
 
 For security disclosures see `SECURITY.md`.
-For anything else: **snwvlr@orlixys.com**
+For anything else: **support@orlixys.com**
