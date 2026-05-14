@@ -16,7 +16,7 @@
   <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-22C55E?style=for-the-badge&labelColor=000000" alt="operational"/>
 </a>
 <a href="mailto:support@orlixys.com">
-  <img src="https://img.shields.io/badge/CONTACT-snwvlr%40orlixys.com-FFFFFF?style=for-the-badge&labelColor=000000" alt="contact"/>
+  <img src="https://img.shields.io/badge/CONTACT-support%40orlixys.com-FFFFFF?style=for-the-badge&labelColor=000000" alt="contact"/>
 </a>
 <a href="https://github.com/sponsors/snwvlr">
   <img src="https://img.shields.io/badge/SPONSOR-ACCESS_CORE-E63946?style=for-the-badge&logo=github-sponsors&logoColor=white&labelColor=000000" alt="sponsor"/>
@@ -219,7 +219,7 @@ Suite de imagem em lote: <b>Conversor Orbital</b> (WebP e formatos web), <b>Reco
 <br/>
 
 <a href="mailto:support@orlixys.com">
-  <img src="https://img.shields.io/badge/Email-snwvlr%40orlixys.com-FFFFFF?style=for-the-badge&logo=maildotru&logoColor=black&labelColor=FFFFFF" alt="email"/>
+  <img src="https://img.shields.io/badge/Email-support%40orlixys.com-FFFFFF?style=for-the-badge&logo=maildotru&logoColor=black&labelColor=FFFFFF" alt="email"/>
 </a>
 <a href="https://github.com/snwvlr">
   <img src="https://img.shields.io/badge/Founder-snwvlr-000000?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" alt="founder"/>
