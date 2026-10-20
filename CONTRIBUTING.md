@@ -9,7 +9,7 @@ Individual repositories may override these rules with their own
 
 ## Which projects accept contributions?
 
-Orlixys has two categories of products, and they have different rules.
+Each repository says whether it accepts contributions. The defaults are:
 
 ### Open source: Orlixys Optimizer
 
@@ -17,12 +17,12 @@ Orlixys has two categories of products, and they have different rules.
 is open source under the MIT licence. External contributions are
 welcome — see the rest of this document.
 
-### Proprietary: Orbit, Photon
+### Other Orlixys software
 
-These are paid, closed-source products. The source is not public and
-external code contributions are not accepted. Bug reports, feature
-proposals and security disclosures are still very welcome through the
-channels listed below.
+The rest of the catalog at [orlixys.com/software](https://orlixys.com/software/)
+is not open to code contributions while its source is not public. Bug
+reports, feature proposals and security disclosures are still very
+welcome through the channels listed below.
 
 ---
 
@@ -104,5 +104,5 @@ without further discussion.
 
 ## Contact
 
-- General: **support@orlixys.com**
+- General: **contact@orlixys.com**
 - Security: see [`SECURITY.md`](./SECURITY.md)

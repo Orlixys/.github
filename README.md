@@ -1,25 +1,25 @@
 # Orlixys · .github
 
-Community health files, organisation profile and shared brand assets for
-[@Orlixys](https://github.com/Orlixys) — a small portfolio of native
-Windows applications: **Optimizer** (free, open-source), **Orbit** and
-**Photon** (paid, proprietary).
+Organisation profile, community health files and shared brand assets for
+[Orlixys](https://github.com/Orlixys), a software studio that builds
+automation, systems and websites for businesses and makes its own
+software.
 
 This repository centralises everything that should be consistent across
 every project under the organisation: the org-level profile, the security
 policy, the contribution guide, the funding configuration and the visual
-identity used in product READMEs.
+identity used in project READMEs.
 
 ## Contents
 
 | Path | Purpose |
 |---|---|
 | `profile/README.md` | Profile rendered at [github.com/Orlixys](https://github.com/Orlixys) |
-| `SECURITY.md` | Responsible disclosure policy for all Orlixys projects |
+| `SECURITY.md` | How to report a security issue in any Orlixys project |
 | `CONTRIBUTING.md` | Default contribution guide for repositories without their own |
 | `FUNDING.yml` | Sponsorship configuration — enables the **Sponsor** button on every repo |
 | `LICENSE` | MIT license covering the contents of this repository |
-| `assets/` | Brand SVGs: Orlixys, Orbit and Photon |
+| `assets/` | The Orlixys mark, in white (dark backgrounds) and in black (light backgrounds) |
 
 ## How GitHub uses this repository
 
@@ -33,12 +33,11 @@ The `profile/README.md` file is the content visitors see at
 
 ## Brand assets
 
-The SVGs under `assets/` are the proprietary marks of their respective
-products (Orlixys, Orbit, Photon). They are included here for use across
-project READMEs. See the `LICENSE` file for the exact terms — the MIT
-licence does **not** apply to the brand assets.
+The SVGs under `assets/` are the Orlixys mark. They are included here for
+use across project READMEs. See the `LICENSE` file for the exact terms —
+the MIT licence does **not** apply to the brand assets.
 
 ## Contact
 
 For security disclosures see `SECURITY.md`.
-For anything else: **support@orlixys.com**
+For anything else: **contact@orlixys.com**

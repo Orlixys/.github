@@ -1,8 +1,13 @@
 # Security Policy
 
-Security is a first-class design constraint across every Orlixys product.
-If you've found something that shouldn't be there, this document explains
-how to tell us about it without putting users at risk.
+Security is part of every Orlixys delivery, not an extra phase. This
+document explains how to report a security issue in any Orlixys project
+on GitHub without putting users at risk.
+
+For **orlixys.com** and **status.orlixys.com**, the full policy (scope,
+what you may test and what is not allowed) is at
+[orlixys.com/security](https://orlixys.com/security/), also published as
+[`security.txt`](https://orlixys.com/.well-known/security.txt).
 
 ---
 
@@ -11,23 +16,23 @@ how to tell us about it without putting users at risk.
 **Do not open public GitHub issues for security concerns.**
 Public issues expose users before a fix is shipped.
 
-Send a detailed report by email to:
+Send a detailed report by email, in Portuguese or English, to:
 
-**`support@orlixys.com`**
+**`contact@orlixys.com`**
 
-Use the subject line: `[SECURITY] <product> — <short summary>`
+Use the subject line: `[SECURITY] <project> — <short summary>`
 
 A good report includes:
 
-- The affected product, version (or release tag), and platform
-- A clear description of the vulnerability and its impact
+- The affected project, version (or release tag), and platform
+- What the issue lets someone do
 - Steps to reproduce — ideally a minimal proof of concept
 - Any logs, payloads, screenshots or recordings that help
-- Your assessment of severity (informational, low, medium, high, critical)
-- Suggested remediation (optional, always appreciated)
+- The date, time and source IP of your tests, when they touched an
+  Orlixys service, so we can tell them apart from an attack
 
-If the issue is sensitive enough to need encryption, mention it in your
-first message and a PGP key will be provided.
+If your proof involves other people's data, describe what you saw
+without sending the data.
 
 ---
 
@@ -35,13 +40,13 @@ first message and a PGP key will be provided.
 
 Security reports are welcome for any of the following:
 
-| Product | Repository |
+| Project | Where |
 |---|---|
-| Orlixys Optimizer (source) | https://github.com/Orlixys/Orlixys-Optimizer-Source |
 | Orlixys Optimizer (releases) | https://github.com/Orlixys/Orlixys-Optimizer-Releases |
-| Orbit | proprietary, contact `support@orlixys.com` |
-| Photon | proprietary, contact `support@orlixys.com` |
-| Organisation infrastructure | https://github.com/Orlixys |
+| Orlixys Optimizer (source) | https://github.com/Orlixys/Orlixys-Optimizer-Source |
+| Other Orlixys software | listed at https://orlixys.com/software/ |
+| orlixys.com and status.orlixys.com | policy at https://orlixys.com/security/ |
+| Organisation on GitHub | https://github.com/Orlixys |
 
 ### Always in scope
 
@@ -57,64 +62,59 @@ Security reports are welcome for any of the following:
 
 ### Out of scope
 
+- Third-party services such as Cloudflare and GitHub: report issues in
+  them to each one's own security channel
 - Vulnerabilities in third-party dependencies that have not been
   integrated into the products above
-- Social engineering, physical attacks, or anything requiring access to
-  developer machines
-- Denial of service that requires more resources than a normal user
-  would have
+- Denial of service and load testing, or any test that takes down or
+  slows down an Orlixys service
+- Social engineering, phishing, physical attacks, or anything requiring
+  access to developer machines
 - Reports generated only from automated scanners without manual
   validation
-- Issues affecting end-of-life versions (only the latest minor release
-  receives security updates)
+- Versions that no longer receive updates (only the latest release of
+  each product does)
 
 ---
 
 ## Supported Versions
 
-Only the latest minor release of each product receives security updates.
-Users running outdated versions should update via the in-app auto-updater
-(Optimizer) or contact support (Orbit, Photon).
+Only the latest release of each product receives security updates.
+Optimizer updates itself through its built-in auto-updater.
 
 | Product | Supported |
 |---|---|
-| Orlixys Optimizer | Latest minor release |
-| Orbit | Latest minor release |
-| Photon | Latest minor release |
+| Orlixys Optimizer | Latest release |
+| Other Orlixys software | Latest release, once available |
 
 ---
 
-## Response Times
+## After You Report
 
-| Stage | Target |
-|---|---|
-| Initial acknowledgment | 72 hours |
-| Triage and severity assessment | 7 days |
-| Fix or mitigation plan | Depends on severity |
-| Public disclosure | Coordinated with the reporter |
+We confirm receipt within **5 business days**. Once we have looked into
+it, we tell you whether the issue is confirmed and when it is fixed. If
+you do not hear back within that time, write again.
 
-Orlixys is currently a one-person operation. Response times are
-best-effort, not contractual.
+We ask you to wait for the fix before disclosing the issue, for up to
+**90 days** from your report. If the fix needs more time, we explain why
+and agree on a new date with you.
 
 ---
 
 ## Recognition
 
-Researchers who report valid vulnerabilities through this process and
-practice responsible disclosure will be credited (with permission) in:
+Orlixys has no bug bounty program and does not pay for reports. With
+your permission, researchers who report valid vulnerabilities through
+this process are credited in the release notes of the affected product.
 
-- Release notes for the affected product
-- The acknowledgments section of the affected repository
-
-There is no paid bug bounty program at this time. If a report leads
-directly to a real fix that protects users, it will be acknowledged
-publicly with a link to your work or handle, if you'd like.
+Asking for payment in exchange for not disclosing an issue is not
+good-faith research.
 
 ---
 
-## A Note On Product Design
+## A Note On Optimizer's Design
 
-Orlixys products are built with privacy as a first-class constraint:
+Orlixys Optimizer is built with privacy as a first-class constraint:
 
 - No telemetry, no analytics SDKs, no remote logging by default
 - Anonymous SHA-256 hardware IDs only — nothing identifiable is collected
@@ -125,7 +125,7 @@ Orlixys products are built with privacy as a first-class constraint:
 - Optimizer ships with the manifest set to `asInvoker`, not
   `requireAdministrator`
 
-Reports that argue Orlixys *should* collect telemetry, *should* require
+Reports that argue Optimizer *should* collect telemetry, *should* require
 permanent admin, or *should* persist tracking data are not
 vulnerabilities — they are feature requests, and the answer is no.
 

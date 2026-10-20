@@ -24,14 +24,12 @@ SOFTWARE.
 
 Note on brand assets:
 The visual identity assets located under `assets/` — including but not limited
-to `orlixys-logo-branco.svg`, `orbit-logo.svg` and `photon-logo.svg` — are
-proprietary marks of the Orlixys organisation and its products. They are
-displayed here under the organisation's own use and are not covered by the
-MIT license above. Do not redistribute, modify, or reuse them in derivative
-products without explicit written permission.
+to `orlixys-logo-branco.svg` and `orlixys-logo-preto.svg` — are proprietary
+marks of the Orlixys organisation and its products. They are displayed here
+under the organisation's own use and are not covered by the MIT license
+above. Do not redistribute, modify, or reuse them in derivative products
+without explicit written permission.
 
-The MIT license also does not extend to the proprietary source of Orbit and
-Photon, which are paid, closed-source products. The licence above applies
-only to the contents of THIS repository (community health files,
-documentation and the open-source visual identity files for which
-permission is granted).
+Each Orlixys product carries its own licence in its own repository, and the
+licence above does not extend to them. It applies only to the contents of
+THIS repository (community health files and documentation).
